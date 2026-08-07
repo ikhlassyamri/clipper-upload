@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Otorisasi TikTok — clipper-upload</title>
+<meta name="robots" content="noindex">
+<!-- Halaman pengalih sekali-pakai untuk otorisasi OAuth TikTok.
+     Ada di sini semata karena URL otorisasi TikTok terlalu panjang untuk
+     disalin lewat HP tanpa terpotong (parameter belakang hilang -> error
+     param_error/redirect_uri). Tidak berisi rahasia apa pun: client_key dan
+     code_challenge memang bagian publik dari alur OAuth PKCE. -->
+<meta http-equiv="refresh" content="0; url=https://www.tiktok.com/v2/auth/authorize/?client_key=sbawkbi6m7av1erahm&response_type=code&scope=user.info.basic%2Cvideo.upload%2Cvideo.publish%2Cvideo.list&redirect_uri=http%3A%2F%2Flocalhost%3A8081%2F&state=clip1372007bd069&code_challenge=c5324236a1986fe1472a4570a02a06623a00fd554b420d63821c55f877a259f6&code_challenge_method=S256">
+<body style="font-family:system-ui;padding:2rem;line-height:1.6">
+<p>Mengalihkan ke halaman izin TikTok…</p>
+<p>Kalau tidak berpindah sendiri,
+<a href="https://www.tiktok.com/v2/auth/authorize/?client_key=sbawkbi6m7av1erahm&response_type=code&scope=user.info.basic%2Cvideo.upload%2Cvideo.publish%2Cvideo.list&redirect_uri=http%3A%2F%2Flocalhost%3A8081%2F&state=clip1372007bd069&code_challenge=c5324236a1986fe1472a4570a02a06623a00fd554b420d63821c55f877a259f6&code_challenge_method=S256">ketuk di sini</a>.</p>
+</body>
