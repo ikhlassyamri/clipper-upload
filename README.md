@@ -6,6 +6,11 @@ their own short-form videos to their own YouTube channel.
 This repository exists to document the application publicly. It is not the application
 itself — the source code is kept in a private repository.
 
+## Legal
+
+- **[Privacy Policy](PRIVACY.md)**
+- **[Terms of Service](TERMS.md)**
+
 ## What it does
 
 1. Writes a script for a short educational video (topic: video "clipping" as a
@@ -37,9 +42,11 @@ Every video published is an original work created by the author.
 ## YouTube API Services
 
 This application uses YouTube API Services and is bound by the
-[YouTube Terms of Service](https://www.youtube.com/t/terms). Data handling is
-described in [PRIVACY.md](PRIVACY.md), and information obtained through YouTube API
-Services is also governed by the
+[YouTube Terms of Service](https://www.youtube.com/t/terms) and the
+[YouTube API Services Terms of Service](https://developers.google.com/youtube/terms/api-services-terms-of-service).
+
+Data handling is described in the [Privacy Policy](PRIVACY.md). Information obtained
+through YouTube API Services is also governed by the
 [Google Privacy Policy](https://policies.google.com/privacy).
 
 OAuth scopes requested:
