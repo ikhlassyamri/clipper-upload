@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+---
+
 # Privacy Policy — clipper-upload
 
 **Last updated: 7 August 2026**

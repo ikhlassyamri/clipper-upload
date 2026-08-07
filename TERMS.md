@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Service
+---
+
 # Terms of Service — clipper-upload
 
 **Last updated: 7 August 2026**

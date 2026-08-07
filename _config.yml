@@ -1,0 +1,7 @@
+# GitHub Pages: menyajikan PRIVACY.md & TERMS.md sebagai halaman HTML publik.
+# Dibutuhkan karena TikTok mewajibkan URL kebijakan diverifikasi lewat file tanda
+# tangan — dan itu hanya mungkin di domain yang kita kendalikan (github.io),
+# bukan di github.com. URL .md di github.com TETAP hidup untuk audit Google.
+title: clipper-upload
+description: Personal single-user automation for publishing my own short videos.
+theme: jekyll-theme-minimal
